@@ -1,0 +1,80 @@
+.rectangle {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 886px;
+    height: 315px;
+
+    background: #ffffff;
+    border-radius: 1px;
+}
+
+.expertHashtag {
+    position: relative;
+    display: inline;
+    width: 53px;
+    height: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    /* identical to box height, or 82% */
+
+
+    color: #CDCDCD;
+}
+
+.newHashteg {
+    position: relative;
+    display: inline;
+    width: 42px;
+    height: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    /* identical to box height, or 82% */
+
+
+    color: #0088EE;
+
+}
+
+
+.avatar {
+    position: relative;
+    display: inline;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.group {
+    position: relative;
+    width: 856px;
+    height: 123px;
+    top: 10px;
+    left: 10px;
+    right: 20px;
+}
+.time{
+    position: absolute;
+width: 36px;
+height: 10px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 9px;
+/* or 66% */
+
+text-align: center;
+
+color: #808080;
+}
