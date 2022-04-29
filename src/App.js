@@ -1,5 +1,6 @@
 import Get from './API/Get';
 import Card from './Card';
+import PostForm from './Component/PostForm';
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
   return (
     <div>
       <Card />
+      <PostForm/>
     </div>
   );
 }
