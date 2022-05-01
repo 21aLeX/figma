@@ -12,9 +12,11 @@ export default class Get extends Component {
         redirect: 'follow'
       };
       
-      fetch("http://f0665380.xsph.ru/", requestOptions)
-        .then(response => response.json())
-        .then(result => console.log(result))
+      const r = await fetch("http://f0665380.xsph.ru/", requestOptions)
+        .then(response =>  response.json())
+        .then(result => {return result})
         .catch(error => console.log('error', error));
+        return r.Messages
       }
+
 }

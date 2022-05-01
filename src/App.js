@@ -1,18 +1,21 @@
 import Get from './API/Get';
-import Card from './Card';
-import PostForm from './Component/PostForm';
+import ListCard from './Component/ListCard';
+import { useDispatch } from 'react-redux'
+import { addPost } from './store/slise/PostSlise';
 
 function App() {
-  
 
-  // async function response () {
-  //   await Get.getAll()
-  // }
-  // response()
+  const add = (res) => dispatch(addPost(res))
+  const dispatch = useDispatch()
+  async function response() {
+    const result = await Get.getAll()
+    console.log(result)
+    add(result)
+  }
+  response()
   return (
     <div>
-      <Card />
-      <PostForm/>
+      <ListCard />
     </div>
   );
 }

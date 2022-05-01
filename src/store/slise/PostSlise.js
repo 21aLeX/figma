@@ -1,18 +1,16 @@
-import {createSlise} from '@reduxjs/toolkit'
 
-const PostSlise = createSlise({
+import { createSlice } from '@reduxjs/toolkit';
+
+
+const PostSlise = createSlice({
     name:'posts',
-    inintialState:{
+    initialState:{
         posts:[],
     },
     reducers:{
         addPost(state, action){
-            state.posts.push({
-                id:action.playload.id,
-                author: action.playload.author,
-                text: action.playload.text,
-                ...
-            })
+            state.posts.push.apply(state.posts,action.payload)
+            console.log(state.posts)
         },
         tooglePost(state, action){},
     }

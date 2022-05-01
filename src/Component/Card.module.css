@@ -1,0 +1,344 @@
+.rectangle {
+    position: relative;
+    width: 886px;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 1px;
+}
+
+.expertHashtag {
+    position: relative;
+    display: inline-block;
+    width: 53px;
+    height: 15px;
+    margin-top: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    color: #CDCDCD;
+}
+
+.newHashteg {
+    position: relative;
+    width: 42px;
+    height: 15px;
+    display: inline-block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    color: #0088EE;
+}
+
+
+.avatar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.group118 {
+    position: relative;
+    width: 856px;
+    height: auto;
+    top: 10px;
+    left: 10px;
+    right: 20px;
+    margin-top: 10px;
+}
+
+.group98 {
+    position: relative;
+    width: 351px;
+    height: 30px;
+    left: 50px;
+}
+
+.time {
+    position: absolute;
+    width: 36px;
+    height: 10px;
+    top: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 9px;
+    text-align: center;
+    color: #808080;
+}
+
+.author {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 13px;
+    color: #808080;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.network {
+    position: sticky;
+    left: 0%;
+    right: 24.79%;
+    top: 70%;
+    bottom: -3.33%;
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 9px;
+    color: #808080;
+}
+
+.text {
+    position: sticky;
+    height: auto;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.frame13 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 810px;
+    height: auto;
+    left: 50px;
+}
+
+.next {
+    position: relative;
+    height: 15px;
+    left: 0%;
+    right: 92.72%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    color: #808080;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.frame121 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    left: 450px;
+    position: absolute;
+    width: 212px;
+    height: 28px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: static;
+    height: 28px;
+    left: 69.81%;
+    right: 0%;
+    top: 0px;
+    border: 1px solid #0088EE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.rightText {
+    position: static;
+    left: 15.62%;
+    right: 15.62%;
+    top: 28.57%;
+    bottom: 28.57%;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    color: #0088EE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: static;
+    height: 28px;
+    left: 0%;
+    right: 69.81%;
+    top: 0px;
+    border: 1px solid #0088EE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.leftText {
+    position: static;
+    left: 15.62%;
+    right: 15.62%;
+    top: 28.57%;
+    bottom: 28.57%;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    color: #0088EE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: static;
+    height: 28px;
+    left: 34.91%;
+    right: 34.91%;
+    top: 0px;
+    border: 1px solid #0088EE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.centerText {
+    position: static;
+    left: 15.62%;
+    right: 15.62%;
+    top: 28.57%;
+    bottom: 28.57%;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    color: #0088EE;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.icon2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    left: 750px;
+    position: absolute;
+    width: 108px;
+    height: 24px;
+}
+
+.select {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 + 42px);
+    top: 0px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.options {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 + 14px);
+    top: 0px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.closeMessage {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 - 14px);
+    top: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.sendMessage {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 - 42px);
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.img {
+    position: relative;
+    width: 259px;
+    height: 159px;
+    left: 110px;
+    border-radius: 4px;
+}
